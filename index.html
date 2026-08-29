@@ -25,8 +25,21 @@
             }
             to {
                 opacity: 1;
-                transform: scale(1);
+                transform: scale(1):
             }
+            }
+        button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.15s;
+}
+
+button:active {
+    transform: scale(0.85);
+}
         }
 
         @keyframes naik {
@@ -45,5 +58,7 @@
 <body>
     <h1>Welcome, my boy 👋</h1>
     <p>Selamat datang di website gw!</p>
+
+    <button>Tekan Aku!</button
 </body>
 </html>
