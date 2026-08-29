@@ -2,9 +2,48 @@
 <html>
 <head>
     <title>Website Gw</title>
+
+    <style>
+        body {
+            text-align: center;
+            margin-top: 100px;
+            font-family: Arial;
+        }
+
+        h1 {
+            animation: muncul 2s ease-in-out;
+        }
+
+        p {
+            animation: naik 2s ease-in-out;
+        }
+
+        @keyframes muncul {
+            from {
+                opacity: 0;
+                transform: scale(0.5);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes naik {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <h1>damnn look at the nigga</h1>
-    <p>welcome my boy</p>
+    <h1>Welcome, my boy 👋</h1>
+    <p>Selamat datang di website gw!</p>
 </body>
 </html>
